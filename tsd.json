@@ -1,0 +1,57 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "mocha/mocha.d.ts": {
+      "commit": "55c750ace821f85e6643bbdb249dbd0b15a3df78"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "chai/chai.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "node/node.d.ts": {
+      "commit": "55c750ace821f85e6643bbdb249dbd0b15a3df78"
+    },
+    "mime/mime.d.ts": {
+      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+    },
+    "express/express.d.ts": {
+      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "ab2462147a313f69e7118625cfcce21c005fa4af"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "q/Q.d.ts": {
+      "commit": "c0d876601e0f8236fd6b57626eb62c4e485f1563"
+    },
+    "gulp-mocha/gulp-mocha.d.ts": {
+      "commit": "55c750ace821f85e6643bbdb249dbd0b15a3df78"
+    }
+  }
+}

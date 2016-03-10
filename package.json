@@ -1,0 +1,45 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-typescript": "^2.8.2",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "~0.1",
+    "mocha": "^2.4.5",
+    "phantomjs": "^1.9.17",
+    "run-sequence": "^1.1.5",
+    "tsd": "^0.6.4"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "body-parser": "^1.13.3",
+    "bower": "^1.5.2",
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "karma": "^0.13.21",
+    "node": "0.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
