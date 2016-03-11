@@ -3,6 +3,7 @@
    "compilerOptions": {
        "noImplicitAny" : true
    },
+   "allowJs": true,
    "exclude": [
        "node_modules"
    ]

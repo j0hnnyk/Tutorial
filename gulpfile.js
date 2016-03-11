@@ -14,7 +14,7 @@ function handleError(err) {
 gulp.task('compile-ts', ['compile-server', 'compile-client']); //, 'compile-protractor']); //'compile-client', 
 
 gulp.task('compile-server', function() {
-    return gulp.src(['./**/*.ts', '!./node_modules/**', '!./typings/**']) //, '!./public/**'])
+    return gulp.src(['./**/*.ts', '!./node_modules/**', '!./typings/**', '!./public/lib']) //, '!./public/**'])
     .pipe(tsc({
         module: "commonjs",
         target: "ES5"        
@@ -24,7 +24,7 @@ gulp.task('compile-server', function() {
 });
 
 gulp.task('compile-client', function () {
-    return gulp.src(['./public/**/*.ts'])
+    return gulp.src(['./public/**/*.ts','!./public/lib'])
     .pipe(tsc({
         module: "commonjs",
         target: "ES5"

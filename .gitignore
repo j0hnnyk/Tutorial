@@ -41,3 +41,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# NodeJs and Typescript projects
+node_modules/
+typings/
+public/lib/
