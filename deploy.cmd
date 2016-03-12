@@ -99,7 +99,7 @@ call :SelectNodeVersion
 
 :: 3. Install bower components
 IF EXIST "%DEPLOYMENT_TARGET%\bower.json" (
-  pushd "%DEPLOYMENT_TARGET%\public"
+  pushd "%DEPLOYMENT_TARGET%"
   call ..\node_modules\.bin\bower install
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
