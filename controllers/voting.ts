@@ -3,6 +3,7 @@ import Vote = require('../models/vote');
 var votes: Array<Vote>;
 
 export function init(options: string[]): void {
+    console.log("Initializing voting controller");
     votes = options.map(option => new Vote(option));
 }
 
@@ -15,9 +16,11 @@ export function getTotalVotes(): number{
 }
 
 export function vote(index: number) : void {
+    console.log("Voting for candidate: " + (index + 1));
     votes[index].votes++;
 }
 
 export function getVotes(): Array<Vote> {
+    console.log("Getting votes for all.");
     return votes;
 }

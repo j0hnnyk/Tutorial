@@ -23,10 +23,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 var router = express.Router();
 
 router.get('/api/getVotes', function (req,res){
+    console.log("Calling api/getVotes");
     res.send(voting.getVotes());
 });
 
 router.post('/api/vote/:index', function (req,res){
+    console.log("Calling api/vote with index: " + req.params.index);
     voting.vote(req.params.index);
     res.send(voting.getVotes());
 });

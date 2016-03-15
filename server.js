@@ -16,9 +16,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 // routes
 var router = express.Router();
 router.get('/api/getVotes', function (req, res) {
+    console.log("Calling api/getVotes");
     res.send(voting.getVotes());
 });
 router.post('/api/vote/:index', function (req, res) {
+    console.log("Calling api/vote with index: " + req.params.index);
     voting.vote(req.params.index);
     res.send(voting.getVotes());
 });
@@ -28,10 +30,8 @@ var server = app.listen(app.get('port'), function () {
     voting.init(['Hillary', 'The Donald', 'Teddy']);
     console.log('Express server listening on port ' + server.address().port);
 });
-
-
-
 /*
+
 // 3/11/16  I had to comment out several lines in jasmine.d.ts as "duplicate" entries???
 
 //declare function describe(description: string, specDefinitions: () => void): void;
