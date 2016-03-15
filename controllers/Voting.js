@@ -15,7 +15,7 @@ function getTotalVotes() {
 }
 exports.getTotalVotes = getTotalVotes;
 function vote(index) {
-    console.log("Voting for candidate: " + (index + 1));
+    console.log("Voting for candidate: " + (index.toFixed() + 1));
     votes[index].votes++;
 }
 exports.vote = vote;
