@@ -16,7 +16,8 @@ export function getTotalVotes(): number{
 }
 
 export function vote(index: number) : void {
-    console.log("Voting for candidate: " + (index + 1).toFixed());
+    var offset = 1;
+    console.log("Voting for candidate: " + (Number(index) + offset));
     votes[index].votes++;
 }
 
